@@ -1,1 +1,14 @@
+-- BRONZE LAYER
+T_1.Analyze source systems
+  T_1.1 -> Business Context & Ownership
+  T_1.2 -> Architecture & Technology Stack
 
+ T_1.1 Business Context & Ownership
+   1. Who owns the data ?
+   2. What Business process it supports ?
+   3. System & Data documentation
+   4. Data Model & Data Catalog
+
+ T_1.2 -> Architecture & Technology Stack
+   1. How is data stored ? [SQL Server, Oracle,AWS,Azure,..]
+   2. What are the Integration capabilities ? [API,Kafka,File Extract, Direct DB,..]
