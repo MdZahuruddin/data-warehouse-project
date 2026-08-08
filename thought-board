@@ -2,6 +2,7 @@
 T_1.Analyze source systems
   T_1.1 -> Business Context & Ownership
   T_1.2 -> Architecture & Technology Stack
+  T_1.3 -> Extract & Load
 
  T_1.1 Business Context & Ownership
    1. Who owns the data ?
@@ -10,5 +11,13 @@ T_1.Analyze source systems
    4. Data Model & Data Catalog
 
  T_1.2 -> Architecture & Technology Stack
-   1. How is data stored ? [SQL Server, Oracle,AWS,Azure,..]
-   2. What are the Integration capabilities ? [API,Kafka,File Extract, Direct DB,..]
+   1. How is data stored ? (SQL Server,Oracle,AWS,Azure,..)
+   2. What are the Integration capabilities ? (API,Kafka,File Extract,Direct DB,..)
+
+ T_1.3 -> Extract & Load
+   1. Incremental vs Full Loads
+   2. Data Scopr & Historical Needs
+   3. What is the expected size of the extracts?
+   4. Are there any data volume limitations?
+   5. How to avoid impacting the source system's performance
+   6. Authentication and Authorization (tokens,SSH keys,VPN,IP whitelisting,..)
